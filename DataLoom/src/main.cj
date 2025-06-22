@@ -8,7 +8,6 @@ import std.sort.*
 import std.math.*
 import std.io.*
 import std.fs.*
-func copyright();
 main(): Int64 {
     copyright();
     while (true) {
