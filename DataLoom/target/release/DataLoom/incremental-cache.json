@@ -1,0 +1,14 @@
+{
+  "packageInformation": {
+    "DataLoom": {
+      "rootPackageName": "DataLoom",
+      "fileNameHash": "-3887757442962589381",
+      "timeStamp": 1748919463,
+      "buildFlag": true,
+      "exeName": "main",
+      "hasSubPkgs": false
+    }
+  },
+  "jsonHash": "-2738565691146262823",
+  "rootPackageName": "DataLoom"
+}
