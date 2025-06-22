@@ -11,8 +11,9 @@ import std.fs.*
 
 var treeSequenceNumber: Int64 = 0 // 用于存储哈夫曼树的序列号
 let configFilename = "tree_sequence_config.txt" // 配置文件的名称
-
+func copyright();
 main(): Int64 {
+    copyright();
     while (true) {
         menu()
         let txt = Console.stdIn.readln().getOrThrow()
