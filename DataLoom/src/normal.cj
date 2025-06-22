@@ -7,6 +7,10 @@ import std.sort.*
 import std.math.*
 import std.io.*
 import std.fs.*
+
+var treeSequenceNumber: Int64 = 0 // 用于存储哈夫曼树的序列号
+let configFilename = "tree_sequence_config.txt" // 配置文件的名称
+
 //用于打印哈夫曼编码表
 public func printHuffmanCodes(HT: Array<HTNode>, codes: Array<String>, n: Int64) {
     println("哈夫曼编码表：")
