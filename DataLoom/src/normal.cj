@@ -26,6 +26,13 @@ func menu() {
 
     println("请输入操作序号")
 }
+func copyright(){
+    println(  "*****************************************************************")
+    println(  "This program is DataLoom")
+    println(  "Copyright 2025 WuShuo ZhangJinRong ZhangYuanYuan")
+    println(  "All rights reserved.")
+    println(  "*****************************************************************")
+}
 // 选择输入方法（从文件或键盘）
 func chooseInputMethod(): Int64 {
     println("请选择字符和权值输入方式: ")
